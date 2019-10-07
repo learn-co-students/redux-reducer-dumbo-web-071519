@@ -1,9 +1,6 @@
-export function manageFriends( state, action){
-
-  state = {
-    friends: []
-  }
-
+export function manageFriends(  state = {
+  friends: []
+}, action){
 
   // switch(action.type) {
   //   case "ADD_FRIEND":
@@ -42,6 +39,4 @@ export function manageFriends( state, action){
     )
   }
   else return state
-
-
 }
